@@ -38,6 +38,7 @@ class _IndicatorState extends State<Indicator>
     return Container(
         child: ticker.isActive == true
             ? const CircularProgressIndicator(color: Colors.white)
-            : Container());
+            : null
+    );
   }
 }
