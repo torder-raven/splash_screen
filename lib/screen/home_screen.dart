@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Spacer(),
+              Spacer(), // 상단 여백 추가
               Image.asset(
                 'asset/img/splash/logo.png',
                 width: 200,
@@ -44,8 +44,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              const SizedBox(height: 10),
-              Spacer(),
+              Spacer(), // 텍스트와 텍스트 사이에 여백 추가
               Padding(
                 padding: EdgeInsets.only(bottom: 16.0),
                 child: Text(
