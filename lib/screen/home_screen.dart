@@ -18,14 +18,29 @@ class HomeScreen extends StatelessWidget {
                   width: 200,
                   height: 200,
                 ),
-                Text(
-                  '테이블오더는 역시 티오더',
-                  style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.red,
-                    fontFamily: 'esamanru',
-                    fontWeight: FontWeight.w700,
-                  ),
+                const SizedBox(height: 15),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      '테이블오더는 역시 ',
+                      style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.black,
+                        fontFamily: 'esamanru',
+                        fontWeight: FontWeight.w300,
+                      ),
+                    ),
+                    Text(
+                      '티오더',
+                      style: TextStyle(
+                        fontSize: 30,
+                        color: Colors.red,
+                        fontFamily: 'esamanru',
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
                 )
               ],
             )));
