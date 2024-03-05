@@ -7,7 +7,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SizedBox(
+      body: SafeArea(
+        child: SizedBox(
           width: double.infinity,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -60,6 +61,7 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
+      ),
     );
   }
 }
