@@ -21,10 +21,11 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   '테이블오더는 역시 티오더',
                   style: TextStyle(
-                      fontSize: 25,
-                      color: Colors.red,
-                      fontFamily: 'Pretendard',
-                      fontWeight: FontWeight.bold),
+                    fontSize: 30,
+                    color: Colors.red,
+                    fontFamily: 'esamanru',
+                    fontWeight: FontWeight.w700,
+                  ),
                 )
               ],
             )));

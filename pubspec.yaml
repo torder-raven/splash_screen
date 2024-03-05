@@ -60,6 +60,7 @@ flutter:
 
   assets:
     - asset/img/splash/
+    - asset/fonts/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -78,26 +79,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Pretendard
+    - family: esamanru
       fonts:
-        - asset: assets/fonts/Pretendard-Thin.ttf
-          weight: 100
-        - asset: assets/fonts/Pretendard-ExtraLight.ttf
-          weight: 200
-        - asset: assets/fonts/Pretendard-Light.ttf
+        - asset: asset/fonts/esamanru_Light.ttf
           weight: 300
-        - asset: assets/fonts/Pretendard-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/Pretendard-Medium.ttf
+        - asset: asset/fonts/esamanru_Medium.ttf
           weight: 500
-        - asset: assets/fonts/Pretendard-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/Pretendard-Bold.ttf
+        - asset: asset/fonts/esamanru_Bold.ttf
           weight: 700
-        - asset: assets/fonts/Pretendard-ExtraBold.ttf
-          weight: 800
-        - asset: fonts/Pretendard-Black.ttf
-          weight: 900
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
