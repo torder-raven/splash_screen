@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                Spacer(),
                 Image.asset(
                   'asset/img/splash/logo.png',
                   width: 200,
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                         fontSize: 25,
                         color: Colors.black,
                         fontFamily: 'esamanru',
-                        fontWeight: FontWeight.w300,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                     Text(
@@ -41,6 +42,17 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+                const SizedBox(height: 10),
+                Spacer(),
+                Text(
+                  'for manager',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.black,
+                    fontFamily: 'esamanru',
+                    fontWeight: FontWeight.w300,
+                  ),
                 )
               ],
             )));
