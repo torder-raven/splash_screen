@@ -7,21 +7,26 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'asset/img/splash/logo.png',
-            ),
-            Text(
-              '테이블오더는 역시 티오더',
-              style: TextStyle(
-                  fontSize: 25,
-                  color: Colors.red,
-                  fontFamily: 'Pretendard',
-                  fontWeight: FontWeight.bold),
-            )
-          ],
-        ));
+        body: SizedBox(
+            width: double.infinity,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Image.asset(
+                  'asset/img/splash/logo.png',
+                  width: 200,
+                  height: 200,
+                ),
+                Text(
+                  '테이블오더는 역시 티오더',
+                  style: TextStyle(
+                      fontSize: 25,
+                      color: Colors.red,
+                      fontFamily: 'Pretendard',
+                      fontWeight: FontWeight.bold),
+                )
+              ],
+            )));
   }
 }
