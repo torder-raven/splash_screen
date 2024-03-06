@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'component/rows.dart';
+import 'component/row/end_row.dart';
+import 'component/row/single_item_row.dart';
+import 'component/row/space_between_row.dart';
 
 class RowsAndColsScreen extends StatelessWidget {
   const RowsAndColsScreen({Key? key}) : super(key: key);
