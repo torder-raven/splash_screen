@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:splash_screen/resource/resources.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -7,18 +8,26 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SvgPicture.asset(
-            "asset/svg/color-b.svg",
-            width: 500,
-            height: 200,
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(32.0),
+              child: Center(
+                child: SvgPicture.asset(
+                  "red_color-w".svg(),
+                  height: 200,
+                ),
+              ),
+            ),
           ),
-          CircularProgressIndicator(
-            strokeWidth: 8.0,
-            color: Colors.white,
+          const Flexible(
+            child: CircularProgressIndicator(
+              strokeWidth: 3.0,
+              color: Colors.red,
+            ),
           ),
         ],
       ),
