@@ -12,7 +12,6 @@ class HomeScreen extends StatelessWidget {
           width: double.infinity,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Spacer(), // 상단 여백 추가
               Image.asset(
